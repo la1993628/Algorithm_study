@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.8)  27 JUN 2021 21:58
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.8)  27 JUN 2021 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -808,9 +808,6 @@ LaTeX Info: Redefining \nameref on input line 20.
 \openout3 = `Algorithm_note.out'.
 
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -867,14 +864,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 26.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 32.
+
+File: img/insertSort.png Graphic file (type bmp)
+<img/insertSort.png>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 [1
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+] [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./Algorithm_note.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 28.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 
 
 Package rerunfilecheck Warning: File `Algorithm_note.out' has changed.
@@ -882,17 +893,17 @@ Package rerunfilecheck Warning: File `Algorithm_note.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Algorithm_note.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E
-(rerunfilecheck)             After:  F1C000558B0C161361C6571A86D53B15.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
+(rerunfilecheck)             Before: 0336A560756B405A97FD7544CB81FA23
+(rerunfilecheck)             After:  85811183E99C53D0BD83071E93343FF1.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 25358 strings out of 492922
- 499778 string characters out of 6136752
- 771213 words of memory out of 5000000
- 29187 multiletter control sequences out of 15000+600000
+ 25425 strings out of 492922
+ 503167 string characters out of 6136752
+ 777213 words of memory out of 5000000
+ 29247 multiletter control sequences out of 15000+600000
  535579 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,6n,68p,408b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Algorithm_note.pdf (1 page).
+Output written on Algorithm_note.pdf (2 pages).
