@@ -12,15 +12,19 @@ void exch(int &a,int &b)
 	a = b;
 	b = temp;
 }
-void insert_sort(int a[])
+void shell_sort(int a[])
 {
-	int t;
-	for(int i = 1; i < 10; i++) // 循环比较大小
-	{
-		for(int j = i ; j > 0 && a[j] < a[j-1] ; j--)
-		{
-			exch(a[j], a[j-1] )	;	
-		}	
+	int h = 1;
+	int N = 10;
+	while ( h < N/3 ) h = 3*h + 1; // 1,4,13,40, 121
+	while ( h >= 1)
+	{ // 将数组变为h有序 
+		for ( int i = h; i < N; i++)
+		{	// 将a[i]插入到a[i-h], a[i-2*h], a[i-3*h]...之中
+			for(int j = i; j >= h && a[j] < a[j-h]; j -= h)
+				exch(a[j], a[j-1] )	; 			
+		}
+		h = h/3;
 	}
 }
 
@@ -31,7 +35,7 @@ int main()
 	{
 		cin >> a[i];
 	}
-	insert_sort(a);
+	shell_sort(a);
 	for(int i=0; i < 10 ; i++)
 	{
 		cout << a[i] << " ";

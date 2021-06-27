@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.8)  27 JUN 2021 22:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.5.8)  27 JUN 2021 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,24 +878,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 File: img/insertSort.png Graphic file (type bmp)
 <img/insertSort.png>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./Algorithm_note.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-
-
-Package rerunfilecheck Warning: File `Algorithm_note.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Algorithm_note.out':
-(rerunfilecheck)             Before: 0336A560756B405A97FD7544CB81FA23
-(rerunfilecheck)             After:  85811183E99C53D0BD83071E93343FF1.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package rerunfilecheck Info: File `Algorithm_note.out' has not changed.
+(rerunfilecheck)             Checksum: 85811183E99C53D0BD83071E93343FF1.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
  25425 strings out of 492922
