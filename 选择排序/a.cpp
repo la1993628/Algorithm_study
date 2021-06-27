@@ -6,18 +6,12 @@
 
 using namespace std;
 
-int main()
+void selection_sort(int a[])
 {
-	int a[10],j,i,t;
-	
-	for(i = 0; i < 10; i++) //输入数据 
+	int t;
+	for(int i = 0; i < 10; i++) // 循环比较大小
 	{
-		cin >> a[i];
-	}
-	
-	for(i = 0; i < 10; i++) // 循环比较大小
-	{
-		for( j = i + 1; j < 10 ; j++)
+		for(int j = i + 1; j < 10 ; j++)
 		{
 			if(a[j] < a[i])
 			{
@@ -27,8 +21,17 @@ int main()
 			}		
 		}	
 	}
+}
+
+int main()
+{
+	int a[10];
+	for(int i = 0; i < 10; i++) //输入数据 
+	{
+		cin >> a[i];
+	}
 	
-	for(i=0; i < 10 ; i++)
+	for(int i=0; i < 10 ; i++)
 	{
 		cout << a[i] << " ";
 	}
