@@ -1,1 +1,3 @@
-Algorithm_study
+算法学习笔记
+
+包含刷题笔记和《算法》pdf版
